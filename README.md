@@ -15,3 +15,12 @@ Lists work with *identifiable* data. You can make your data identifiable in one 
 Add navigation capabilities to a list by embedding it in a `NavigationView`, and then nesting each row in a `NavigationLink` to set up a transtition to a destination view.
 
 Your custom views will often wrap and encapsulate a series of modifiers for a particular view.
+
+*State* is a value, or a set of values, that can change over time, and that affects a view’s behavior, content, or layout. You use a property with the `@State` attribute to add state to a view.
+
+To combine static and dynamic views in a list, or to combine two or more different groups of dynamic views, use the `ForEach` type instead of passing your collection of data to `List`.
+
+You use the `$` prefix to access a binding to a state variable, or one of its properties.
+
+An observable object is a custom object for your data that can be bound to a view from storage in SwiftUI’s environment. SwiftUI watches for any changes to observable objects that could affect a view, and displays the correct version of the view after a change.
+
