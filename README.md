@@ -24,3 +24,5 @@ You use the `$` prefix to access a binding to a state variable, or one of its pr
 
 An observable object is a custom object for your data that can be bound to a view from storage in SwiftUI’s environment. SwiftUI watches for any changes to observable objects that could affect a view, and displays the correct version of the view after a change.
 
+Set the edge insets to zero on both kinds of landmark previews so the content can extend to the edges of the display.
+
